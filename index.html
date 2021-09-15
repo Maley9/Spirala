@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spirala</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Spirala Logarytmiczna</h1>
+        </header>
+
+        <div class="row">
+            <div id="spiral" class="col-12 col-md-8">
+                <canvas id="spiral-canvas" width="1000px" height="1000px"></canvas>
+            </div>
+            <div id="fraction" class="col-12 col-md-4">
+
+                <input id="number" type="number" onchange="updateNumber()" value="" step="0.01" min="0" />
+
+                <h2>Pobaw się</h2>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
